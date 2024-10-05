@@ -10,9 +10,10 @@
             margin: 0;
             padding: 20px;
             background-color: #f4f4f4;
+            color: #333;
         }
         h1 {
-            color: #333;
+            color: #2c3e50;
         }
         section {
             margin-bottom: 20px;
@@ -21,18 +22,34 @@
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        .button {
+        h2 {
+            color: #2980b9;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a.button {
             display: inline-block;
             padding: 10px 15px;
-            margin-top: 10px;
-            background-color: #007BFF; /* Button color */
+            font-size: 16px;
             color: white;
-            text-decoration: none;
+            background-color: #2980b9;
             border-radius: 5px;
+            text-decoration: none;
             transition: background-color 0.3s;
         }
-        .button:hover {
-            background-color: #0056b3; /* Darker shade on hover */
+        a.button:hover {
+            background-color: #3498db;
+        }
+        .contact-button {
+            background-color: #27ae60;
+        }
+        .contact-button:hover {
+            background-color: #2ecc71;
         }
     </style>
 </head>
@@ -45,19 +62,19 @@
         <ul>
             <li>
                 HarmSafe-Detection:
-                <a href="https://github.com/yourusername/HarmSafe-Detection" class="button">View Project</a>
+                <a href="https://github.com/haroon423/HarmSafe-Detection" class="button">View Project</a>
             </li>
             <li>
                 BackgroundRemovalAndCropping:
-                <a href="https://github.com/yourusername/BackgroundRemovalAndCropping" class="button">View Project</a>
+                <a href="https://github.com/haroon423/BackgroundRemovalAndCropping" class="button">View Project</a>
             </li>
             <li>
                 Fraud-Detection-Machine-Learning:
-                <a href="https://github.com/yourusername/Fraud-Detection-Machine-Learning" class="button">View Project</a>
+                <a href="https://github.com/haroon423/Fraud-Detection-Machine-Learning" class="button">View Project</a>
             </li>
         </ul>
     </section>
-    
+
     <section>
         <h2>Skills</h2>
         <p>Python, R, SQL, HTML, CSS, JavaScript, Machine Learning, Data Analysis, etc.</p>
@@ -65,8 +82,8 @@
 
     <section>
         <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:hk4897286@gmail.com">hk4897286@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/haroon-khan-b3a72a222">Your LinkedIn Profile</a></p>
+        <p>Email: <a href="mailto:hk4897286@gmail.com" class="contact-button button">Contact Me</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/haroon-khan-b3a72a222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="button">Your LinkedIn Profile</a></p>
     </section>
 </body>
 </html>
