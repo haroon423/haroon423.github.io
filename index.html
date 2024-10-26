@@ -3,172 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Haroon Khan - AI Engineer Portfolio</title>
+    <title>Haroon Khan Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
         }
         header {
-            background: #4CAF50;
-            color: #fff;
+            background: #35424a;
+            color: #ffffff;
             padding: 20px 0;
             text-align: center;
         }
-        h1 {
-            margin: 0;
-        }
-        h2 {
-            color: #4CAF50;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
-        }
-        .intro, .projects, .skills, .contact, .about, .experience {
-            background: #fff;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .btn {
-            display: inline-block;
-            margin: 10px 0;
-            padding: 10px 20px;
-            background: #4CAF50;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background 0.3s ease;
-        }
-        .btn:hover {
-            background: #45a049;
-        }
-        .skills-list {
+        nav {
             display: flex;
-            flex-wrap: wrap;
+            justify-content: center;
+            background: #35424a;
+            padding: 10px;
+        }
+        nav ul {
             list-style: none;
             padding: 0;
         }
-        .skills-list li {
-            background: #4CAF50;
-            color: #fff;
-            margin: 5px;
-            padding: 10px;
-            border-radius: 5px;
-            flex: 1 0 30%; /* Adjust width as needed */
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
         }
-        .contact-form {
-            display: flex;
-            flex-direction: column;
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
         }
-        .contact-form input, .contact-form textarea {
-            margin: 5px 0;
-            padding: 10px;
-            border: 1px solid #ccc;
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: #ffffff;
             border-radius: 5px;
         }
-        .contact-form button {
-            padding: 10px;
-            background: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
+        h2 {
+            border-bottom: 2px solid #35424a;
+            padding-bottom: 10px;
         }
-        .contact-form button:hover {
-            background: #45a049;
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Haroon Khan</h1>
+        <p>A passionate AI Engineer 🚀</p>
+    </header>
 
-<header>
-    <h1>I'm Haroon Khan, AI Engineer!</h1>
-    <p>Welcome to my portfolio. I'm passionate about leveraging technology to solve real-world problems. I enjoy exploring innovative solutions in data science and machine learning.</p>
-</header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
 
-<div class="container">
+    <section id="about">
+        <h2>Hi all, I'm Haroon Khan 👋</h2>
+        <p>I am a passionate AI Engineer 🚀 with experience in Data Science, Machine Learning, Python, Flask, and other exciting technologies. I love applying innovative ideas to create scalable and effective solutions.</p>
+    </section>
 
-    <div class="about">
-        <h2>About Me</h2>
-        <p>I am an AI Engineer with experience in developing machine learning models, data analysis, and web scraping. I am eager to explore new technologies and apply them to meaningful projects.</p>
-    </div>
-
-    <div class="projects">
-        <h2>Projects</h2>
-        <p><strong>HarmSafe-Detection</strong>: A machine learning model designed to identify and filter harmful content, enhancing online safety. <a href="https://github.com/haroon423/HarmSafe-Detection" class="btn">View Project</a></p>
-        <p><strong>BackgroundRemovalAndCropping</strong>: Utilizes advanced algorithms for precise background removal and image cropping to improve visual content. <a href="https://github.com/haroon423/BackgroundRemovalAndCropping" class="btn">View Project</a></p>
-        <p><strong>Fraud-Detection-Machine-Learning</strong>: A robust application that employs machine learning techniques to detect and prevent fraudulent activities in real-time. <a href="https://github.com/haroon423/Fraud-Detection-Machine-Learning" class="btn">View Project</a></p>
-        <p><strong>Text2Speech</strong>: A speech synthesis project turning text into natural-sounding speech. <a href="https://github.com/haroon423/Text2Speech" class="btn">View Project</a></p>
-        <p><strong>Conversational-AI-Chatbot</strong>: An AI-driven chatbot designed to hold intelligent and natural conversations. <a href="https://github.com/haroon423/Conversational-AI-Chatbot" class="btn">View Project</a></p>
-    </div>
-
-    <div class="skills">
+    <section id="skills">
         <h2>Skills</h2>
-        <h3>Programming Languages:</h3>
-        <ul class="skills-list">
+        <ul>
             <li>Python</li>
-            <li>R</li>
-            <li>SQL</li>
-        </ul>
-        <h3>Web Technologies:</h3>
-        <ul class="skills-list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
-        <h3>Data Science & AI Skills:</h3>
-        <ul class="skills-list">
-            <li>Machine Learning</li>
-            <li>Deep Learning</li>
+            <li>TensorFlow</li>
+            <li>Keras</li>
+            <li>PyTorch</li>
+            <li>Backend Development with Flask</li>
             <li>Data Science</li>
-            <li>Computer Vision</li>
-            <li>Artificial Intelligence</li>
-            <li>Data Analysis</li>
-            <li>NLP (Natural Language Processing)</li>
-            <li>OCR (Optical Character Recognition)</li>
+            <li>React JS</li>
+            <li>Good understanding of Data Structures and Algorithms</li>
         </ul>
-    </div>
+    </section>
 
-    <div class="experience">
-        <h2>Experience</h2>
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Sindh Madressatul Islam University</strong><br>
+           Bachelor of Science in Computer Science<br>
+           Jan 2021 - Dec 2025<br>
+           Completed my Bachelor's in Computer Science, focusing on software engineering and programming.
+        </p>
+        <p><strong>Presidential Initiative for. Artificial Intelligence and Computing. (PIAIC)</strong><br>
+           Two-Year Diploma in Artificial Intelligence<br>
+           August 2021 - August 2023<br>
+           Completed a diploma program in Artificial Intelligence, where I gained skills in machine learning, data analysis, and AI technologies.
+        </p>
+    </section>
 
-        <h3>AI Engineer - Optimizia (Mar 2024 - Present)</h3>
-        <p>As an AI Engineer at Optimizia, I contribute to developing OCR solutions and data extraction processes using advanced tools like PaddleOCR, Tesseract OCR, EasyOCR, and Surya OCR. I integrate OCR data into web applications and apply preprocessing techniques like cropping and binarization for improved OCR accuracy. I also incorporate LLMs and VLMs for better document processing results.</p>
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <p>Some full-time companies where I worked:</p>
+        <ul>
+            <li>Optimizia</li>
+            <li>Upwork</li>
+            <li>Fiverr</li>
+        </ul>
+    </section>
 
-        <h3>Data Scientist - Fiverr (Feb 2021 - Present)</h3>
-        <p>At Fiverr, I work as a Data Scientist solving complex business challenges using predictive models and machine learning algorithms. I have developed solutions for fraud detection, customer segmentation, and demand forecasting, significantly improving business performance for clients across various industries.</p>
+    <section id="achievements">
+        <h2>Achievements And Certifications 🏆</h2>
+        <ul>
+            <li><strong>Artificial Intelligence:</strong> Certification from PIAIC</li>
+            <li><strong>Data Science:</strong> Certification from Jawan Pakistan</li>
+            <li><strong>Python Programming:</strong> Certification from Cisco</li>
+        </ul>
+    </section>
 
-        <h3>AI Engineer - Upwork (Jan 2021 - Present)</h3>
-        <p>As an AI Engineer on Upwork, I provide machine learning and deep learning solutions across various domains like healthcare, finance, and e-commerce. My projects include building recommendation engines, real-time fraud detection systems, and deploying models using cloud platforms like AWS and Google Cloud.</p>
+    <section id="contact">
+        <h2>Contact Me ☎️</h2>
+        <p>If you would like to discuss a project or just want to say hi, my inbox is open for all!</p>
+        <ul>
+            <li>Phone: +92-03002766423</li>
+            <li>Email: <a href="mailto:hk4897286@gmail.com">hk4897286@gmail.com</a></li>
+        </ul>
+    </section>
 
-        <h3>Medium Writer - AI Engineer (Jan 2022 - Present)</h3>
-        <p>On Medium, I regularly publish articles on AI, covering topics like machine learning, neural networks, and practical AI applications. My goal is to educate and contribute to the AI community by sharing knowledge and insights into emerging trends.</p>
-    </div>
-
-    <div class="contact">
-        <h2>Contact Me</h2>
-        <p><a href="mailto:hk4897286@gmail.com" class="btn">Email Me</a></p>
-        <p><a href="https://www.linkedin.com/in/haroon-khan-b3a72a222" class="btn">Connect on LinkedIn</a></p>
-        
-        <h3>Or send me a message:</h3>
-        <form class="contact-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </div>
-
-</div>
-
+    <footer>
+        <p>&copy; 2024 Haroon Khan</p>
+    </footer>
 </body>
 </html>
