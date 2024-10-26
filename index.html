@@ -6,52 +6,139 @@
     <title>Haroon Khan Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        /* Reset basic styles */
+        * {
             margin: 0;
             padding: 0;
-            line-height: 1.6;
-            background-color: #f4f4f4;
+            box-sizing: border-box;
         }
+
+        /* Base Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #e9ecef;
+            color: #333;
+        }
+
         header {
-            background: #35424a;
+            background-color: #2c3e50;
             color: #ffffff;
-            padding: 20px 0;
+            padding: 50px 20px;
             text-align: center;
         }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #35424a;
-            padding: 10px;
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
         }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        nav {
+            background-color: #35424a;
+            padding: 15px 0;
+        }
+
         nav ul {
             list-style: none;
-            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
         }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
+
         nav ul li a {
             color: #ffffff;
             text-decoration: none;
+            font-size: 1.1em;
+            padding: 5px 10px;
+            transition: color 0.3s ease;
         }
+
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+
+        /* Section Styles */
         section {
+            max-width: 800px;
+            margin: 20px auto;
             padding: 20px;
-            margin: 10px;
-            background: #ffffff;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #2c3e50;
+            font-size: 2em;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 5px;
+        }
+
+        section p, section ul {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 8px;
+            background: #ecf0f1;
             border-radius: 5px;
+            margin: 5px 0;
         }
-        h2 {
-            border-bottom: 2px solid #35424a;
-            padding-bottom: 10px;
+
+        /* Button Styles */
+        a.btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #2c3e50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
         }
+
+        a.btn:hover {
+            background-color: #f39c12;
+        }
+
+        /* Footer Styles */
         footer {
             text-align: center;
-            padding: 10px 0;
-            background: #35424a;
+            padding: 15px 0;
+            background-color: #2c3e50;
             color: #ffffff;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Contact Section */
+        #contact ul li {
+            padding: 5px;
+            font-size: 1.1em;
+        }
+
+        #contact a {
+            color: #2c3e50;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        #contact a:hover {
+            color: #f39c12;
         }
     </style>
 </head>
@@ -98,7 +185,7 @@
            Jan 2021 - Dec 2025<br>
            Completed my Bachelor's in Computer Science, focusing on software engineering and programming.
         </p>
-        <p><strong>Presidential Initiative for. Artificial Intelligence and Computing. (PIAIC)</strong><br>
+        <p><strong>Presidential Initiative for Artificial Intelligence and Computing (PIAIC)</strong><br>
            Two-Year Diploma in Artificial Intelligence<br>
            August 2021 - August 2023<br>
            Completed a diploma program in Artificial Intelligence, where I gained skills in machine learning, data analysis, and AI technologies.
